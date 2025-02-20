@@ -1,0 +1,18 @@
+/* Base styles for the page */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    overflow: hidden;
+    background-color: black; /* Default background */
+}
+
+#message {
+    z-index: 10;
+}
